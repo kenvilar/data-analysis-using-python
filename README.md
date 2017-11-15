@@ -20,3 +20,4 @@ source <DIR>/bin/activate
 * Install geopy -- pip3 install geopy
 * Install bs4 -- pip3 install bs4 (This is optional. This will parse a document into a tree representation.)
 * Install requests -- pip3 install requests (This is optional. This will requests http library.)
+* Install pipdeptree -- pip3 install pipdeptree (This is optional. It will displays dependencies as a tree structure.)
