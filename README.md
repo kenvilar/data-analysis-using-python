@@ -12,6 +12,14 @@ pip3 install -U pip setuptools
 python3 -m venv <DIR> 
 source <DIR>/bin/activate
 ````
+* Auto generate requirements.txt
+```
+pip3 list --not-required --format=freeze > requirements.txt
+```
+* To install packages from requirements.txt file
+```
+pip3 install -r requirements.txt
+```
 
 ## Installations
 * Install pandas -- pip3 install pandas
