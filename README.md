@@ -20,6 +20,10 @@ pip3 list --not-required --format=freeze > requirements.txt
 ```
 pip3 install -r requirements.txt
 ```
+* To run jupyter notebook
+```
+jupyter notebook
+```
 
 ## Installations
 * Install pandas -- pip3 install pandas
