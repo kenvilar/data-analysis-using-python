@@ -5,6 +5,7 @@ pandas==0.21.0
 pipdeptree==0.10.1
 requests==2.31.0
 xlrd==1.1.0
+mistune>=2.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
 urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
 notebook>=6.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
 pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
